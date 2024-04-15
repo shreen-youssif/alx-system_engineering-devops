@@ -1,7 +1,15 @@
-sudo apt-get install ufw
-sudo ufw status
-sudo ufw enable -y
-sudo ufw default deny incoming -y
+# Install ufw if not already installed
+sudo apt update
+sudo apt install ufw
+
+# Set default incoming policy to deny
+sudo ufw default deny incoming
+
+# Allow incoming traffic on ports 22, 80, and 443
 sudo ufw allow 22/tcp
 sudo ufw allow 80/tcp
 sudo ufw allow 443/tcp
+
+# Enable ufw to apply the rules
+sudo ufw enable
+
