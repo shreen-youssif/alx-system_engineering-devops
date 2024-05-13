@@ -26,3 +26,4 @@
 
 **Conclusion:**
 The recent outage was a challenging experience for our team, but it highlighted areas for improvement in our network security and incident response capabilities. By implementing the corrective measures outlined above and remaining vigilant against emerging threats, we aim to minimize the risk of future disruptions and ensure the continued reliability of our services.
+![image](https://github.com/shreen-youssif/alx-system_engineering-devops/assets/138828741/2f0771a1-37e6-4b05-bd0c-7a7c8133b0d3)
